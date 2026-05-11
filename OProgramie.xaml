@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="kalk.OProgramie"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:kalk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,158,0,0" TextWrapping="Wrap" Text="Michał Hempel, 11.03.2024, Uniwersytet Kazimierza Wielkiego w Bydgoszczy, Technologie mobilne i rozproszone na platformie .NET" VerticalAlignment="Top" Height="119" Width="1202" FontSize="36"/>
+        <Button x:Name="btnPowrot" Content="Powrót" Margin="149,468,0,0" VerticalAlignment="Top" Height="102" Width="298" FontSize="24" Click="btnPowrot_Click"/>
+
+    </Grid>
+</Page>
